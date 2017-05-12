@@ -1,0 +1,258 @@
+*{
+    font-family: 'Aban Light', tahoma, Arial;
+}
+.calendar-table{
+    width: 100%;
+}
+.calendar-container {
+    left: 50%;
+    margin: -255px 0 0 -245px;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+.calendar {
+    text-align: center;
+}
+
+.calendar header {
+    position: relative;
+}
+
+.calendar h2 {
+    text-transform: uppercase;
+}
+
+.calendar thead {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.calendar tbody {
+    color: #7c8a95;
+}
+
+.calendar tbody td:hover {
+    background: #efefef;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
+.calendar tbody td.active {
+    border: 1px solid #444;
+    background-color: #444 !important;
+}
+
+
+.calendar td {
+    border: 2px solid transparent;
+    line-height: 34px !important;
+    text-align: center !important;
+    display: inline-block !important;
+    width: 14.2857142857% !important;
+    padding: 20px !important;
+    max-height: 100px !important;
+    float: left !important;
+    font-size: 1.88rem !important;
+    float: right !important;
+}
+
+.calendar thead tr td {
+    font-size: 1.5rem !important;
+}
+
+.current-day {
+    background: #713D3E;
+    color: #f9f9f9;
+}
+
+.event {
+    cursor: pointer;
+    position: relative;
+}
+
+.event {
+    background: #ca9d67;
+    color: #fff;
+}
+
+.event.current-day:after {
+    background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+    border: 2px solid #cbd1d2;
+    border-radius: 50%;
+    color: #cbd1d2;
+    height: 32px;
+    font-size: 22px;
+    line-height: 28px;
+    margin: -16px;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    cursor: pointer;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    background: #cbd1d2;
+    color: #f9f9f9;
+}
+
+.btn-prev {
+    left: 30px;
+}
+
+.btn-next {
+    right: 35px;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.close {
+    color: #A4AAAB;
+    margin-top: -15px;
+    margin-right: 10px;
+    float: right;
+}
+
+.day-event {
+    display:none;
+    float: right !important;
+    background: #444;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: right;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    direction: rtl;
+}
+
+.day-event .radio{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.day-event .label{
+    border-radius:  0 !important;
+}
+
+.day-event p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.day-event span{
+    font-size: 12px;
+}
+
+
+.coupon-number{
+    margin-top: 20px;
+}
+
+.coupon-number label{
+    font-size: 13px;
+}
+
+.coupon-number input{
+    height: 35px;
+}
+
+.form-button{
+    margin-top: 12px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+.label-time-select{
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 5px;
+}
+
+.label-time-select .label{
+  color: #666;
+  font-size: 20px;
+}

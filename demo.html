@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>SimpleCalendar</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="assets/js/init.js" type="text/javascript"></script>
+  <link href='http://awebfont.ir/css?id=1997' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header text-right" style="direction: rtl;">
+            تقویم فارسی با قابلیت اضافه کردن رویداد <br>
+            <small class="text-muted">jquery event calendar</small>
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="calendar hidden-print">
+          <header>
+            <h2 class="month"></h2>
+            <a class="btn-prev"><</a>
+            <a class="btn-next">></a>
+          </header>
+          <table class="calendar-table">
+            <thead class="event-days">
+              <tr>
+                  <tr>
+                    <td>شنبه</td>
+                    <td>یکشنبه</td>
+                    <td>دوشنبه</td>
+                    <td>سه شنیه</td>
+                    <td>چهتر شنبه</td>
+                    <td>پنجشنبه</td>
+                    <td>جمعه</td>
+                </tr>
+              </tr>
+            </thead>
+            <tbody class="event-calendar">
+              <tr class="1"></tr>
+              <tr class="2"></tr>
+              <tr class="3"></tr>
+              <tr class="4"></tr>
+              <tr class="5"></tr>
+              <tr class="6"></tr>
+            </tbody>
+          </table>
+          <div class="list">
+            <div class="day-event" date-day="3" date-month="2" date-year="1396">
+                <h2 class="title">لورم ایپسوم پدیده ای آشنا</h2>
+                <p>
+                  لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                </p>
+            </div>
+            <div class="day-event" date-day="11" date-month="2" date-year="1396">
+                <h2 class="title">لورم ایپسوم پدیده ای آشنا</h2>
+                <p>
+                  لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرا با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                </p>
+                <button class="btn btn-danger">کلیک کنید</button>
+            </div>
+            <div class="day-event" date-day="23" date-month="2" date-year="1396">
+                <h2 class="title">لورم ایپسوم پدیده ای آشنا</h2>
+                <label class="label label-primary">تقویم فارسی</label>
+                <p>
+                  لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
