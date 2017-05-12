@@ -43,7 +43,7 @@ After that place below code in your project :
 ```
 
 This only helps you to get the calendar itself.
-To get the events you have yo first put 
+To get the events you have to first put 
 
 ```html
 <div class="list"></div>
