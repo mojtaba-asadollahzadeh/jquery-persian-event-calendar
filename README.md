@@ -1,5 +1,6 @@
 # Jquery Persian Event Calendar
 This is a persian (jalali) event calendar based on jquery
+![screen shot of persian calendar](https://github.com/mojtaba-asadollahzade/jquery-persian-event-calendar/blob/master/assets/images/screen_shot.png)
 
 ### Installing
 
@@ -56,7 +57,4 @@ where you replace the [day],[month] and [year] with your desired values.
 
 At the end I've to thank :
 * **[Reza Babakhani](https://github.com/babakhani)** - *for Persian Date*.
-<<<<<<< HEAD
-* **[Ardani Rohman](https://github.com/ardani)** - *for Simple Jquery Calendar*.
-=======
 * **[Ardani Rohman](https://github.com/ardani)** - *for Simple Jquery Calendar*.
