@@ -1,6 +1,6 @@
 # Jquery Persian Event Calendar
 This is a persian (jalali) event calendar based on jquery
-![screen shot of persian calendar](https://github.com/mojtaba-asadollahzade/jquery-persian-event-calendar/blob/master/assets/images/screen_shot.png)
+![screen shot of persian calendar](https://github.com/mojtaba-asadollahzade/jquery-persian-event-calendar/blob/master/assets/images/screenshot.png)
 
 ### Installing
 
@@ -23,8 +23,8 @@ After that place below code in your project :
                     <td>شنبه</td>
                     <td>یکشنبه</td>
                     <td>دوشنبه</td>
-                    <td>سه شنیه</td>
-                    <td>چهتر شنبه</td>
+                    <td>سه شنبه</td>
+                    <td>چهار شنبه</td>
                     <td>پنجشنبه</td>
                     <td>جمعه</td>
                 </tr>
@@ -53,7 +53,7 @@ inside the **div.calendar** and after that within it to make events you can put 
 <div class="day-event" date-day="[day]" date-month="[month]" date-year="[year]">
 </div>
 ```
-where you replace the [day],[month] and [year] with your desired values.
+where you replace the [day],[month] and [year] with your desired date values.
 
 At the end I've to thank :
 * **[Reza Babakhani](https://github.com/babakhani)** - *for Persian Date*.
