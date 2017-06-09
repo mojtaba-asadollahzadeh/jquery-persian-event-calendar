@@ -1,0 +1,24 @@
+{
+  "name": "jquery-persian-event-calendar",
+  "version": "1.0.0",
+  "description": "this is a simple jquery persian calendar which is event driven",
+  "main": "persian-event-calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojtaba-asadollahzade/jquery-persian-event-calendar.git"
+  },
+  "keywords": [
+    "jquery-persian-calendar",
+    "event-calendar",
+    "jquery"
+  ],
+  "author": "Mojtaba Asadollahzade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojtaba-asadollahzade/jquery-persian-event-calendar/issues"
+  },
+  "homepage": "https://github.com/mojtaba-asadollahzade/jquery-persian-event-calendar#readme"
+}
